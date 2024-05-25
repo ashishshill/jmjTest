@@ -1,0 +1,102 @@
+.contactUsContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactUsMain {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contactUsDetailsContent {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.contactUsDetailsAddress {
+    color: #bfbfbf;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8em;
+    margin-bottom: 20px;
+}
+.contactUsDetailsTextFirst,
+.contactUsDetailsTextSecond {
+    /* padding: 30px; */
+    text-align: start;
+}
+
+.contactUsDetailsFormHeader {
+    color: #000000;
+    font-size: 65px;
+    font-weight: 900;
+    font-family: "Forum", display;
+}
+
+.contactUsDetailsForm input {
+    color: #666;
+    padding: 0.75em;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--ast-border-color);
+    border-radius: 2px;
+    background: var(--ast-comment-inputs-background);
+    width: 60%;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.7em;
+}
+
+.contactUsDetailsWrapper {
+    padding-right: 50px;
+}
+
+.form-field {
+    display: flex;
+    font-family: "Lato", sans-serif;
+    /* font-weight: 400; */
+    /* font-size: 17px; */
+    /* font-size: 1rem; */
+    line-height: 1.7em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.contactUsDetailsFormTextFirst {
+    display: flex;
+}
+
+.contact-form {
+    width: 540px;
+    height: 324px;
+}
+#contact-message {
+    width: 100%;
+    padding: 13px;
+    height: 92px;
+}
+
+.submit-button {
+    display: flex;
+    margin-top: 10px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background: #1bae70;
+    border: #1bae70;
+}
+
+.fa-facebook-f::before {
+    content: "\f39e";
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.contactUsDetailsContainer {
+    margin-top: 22px;
+}

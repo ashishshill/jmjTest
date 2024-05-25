@@ -1,0 +1,8 @@
+.contactUsDetailsMain {
+    display: flex;
+    gap: 20px;
+}
+
+.contactUsDetailsAddress {
+    max-width: 245px;
+}

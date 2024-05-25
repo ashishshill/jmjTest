@@ -1,0 +1,71 @@
+.companyDetailsContainer {
+    max-width: 1296px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 45px;
+}
+.companyDetailsMain {
+    display: flex;
+    gap: 50px;
+}
+.compayFirstContent {
+    width: 50%;
+    text-align: start;
+}
+.aboutUsHeader,
+.missionHeader,
+.visionHeader {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-weight: 400;
+    font-family: "Forum", display;
+    margin-bottom: 20px;
+}
+.aboutUsSubheader,
+.missionSubheader,
+.visionSubheader {
+    text-align: justify;
+    color: #536941cc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.findOutCtaMain {
+    width: 150px;
+    border: 1px solid;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.findOutCtaMain:hover,
+.findOutCta:hover,
+.findOutCtaMain:focus {
+    border-color: #14261c;
+    color: #14261c;
+}
+
+.findOutCta {
+    text-decoration: none;
+    color: #000;
+}
+
+.companyDetailsMain img {
+    height: 356px;
+    width: 263px;
+}
+.companyProfileMain {
+    display: flex;
+    gap: 50px;
+}
+
+.companyLastContent {
+    margin-top: 10px;
+}

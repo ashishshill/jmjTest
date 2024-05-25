@@ -1,0 +1,74 @@
+/* QuickLinks.css */
+.quickLinksContainer {
+    background-color: #a0b69f;
+    padding: 55px 68px;
+    margin: 10px 0px;
+}
+
+.logoSection .logo {
+    width: 150px;
+    height: 150px;
+    margin-top: 27px;
+}
+
+.linksHeader {
+    font-size: 30px;
+    margin-bottom: 22px;
+    color: #fff;
+}
+
+.linkList {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.linkList a {
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 20px;
+}
+.linksList li {
+    margin: 5px 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.socialSection {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.socialIcon {
+    font-size: 50px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.socialIcon:hover {
+    color: #007bff; /* Change to desired hover color */
+}
+
+.facebook:hover {
+    color: #3b5998; /* Facebook color */
+}
+
+.twitter:hover {
+    color: #1da1f2; /* Twitter color */
+}
+
+.youtube:hover {
+    color: #ff0000; /* YouTube color */
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    margin-right: 300px;
+}

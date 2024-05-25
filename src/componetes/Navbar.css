@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    /* max-width: 2000px; */
+    /* min-height: 0px; */
+    background: #37794b82;
+    position: absolute;
+    z-index: 9999;
+    padding: 0px 170px;
+}
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    padding-right: 60px;
+}
+.navbar-logo {
+    text-align: left;
+}
+.navbar-logo img {
+    width: 14%;
+}
+.navbarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 0px;
+}
